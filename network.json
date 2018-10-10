@@ -92,22 +92,22 @@
         {
             "ports": [
                 {
-                    "output": "BPop",
-                    "type": "png"
-                }
-            ],
-            "source": "StepB5A.R",
-            "target": "StepB5A.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "BMurder",
                     "type": "png"
                 }
             ],
             "source": "StepB5B.R",
             "target": "StepB5B.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BPop",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB5A.R",
+            "target": "StepB5A.png"
         }
     ],
     "nodes": [
@@ -148,8 +148,10 @@
             "name": "StepB4A.png"
         },
         {
+            "assigned_to": "drsharma",
             "desc": "",
-            "name": "StepB5A.R"
+            "name": "StepB5A.R",
+            "task_status": "in progress"
         },
         {
             "desc": "",
@@ -162,6 +164,6 @@
             "name": "StepB5B.png"
         }
     ],
-    "updated_at": "2018-10-10 19:46:10",
+    "updated_at": "2018-10-10 19:49:23",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
