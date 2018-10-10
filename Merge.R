@@ -1,8 +1,8 @@
 
-arrests <- USArrests
 
-arrests=cbind(rownames(arrests),arrests)
-colnames(arrests)= c("Statename")
+
+arrests=cbind(rownames(USArrests),USArrests)
+colnames(arrests)= c("USArrests")
 arrests
-merged_data=merge(arrests,census)
+merged_data=merge(USArrests,census)
 colnames(merged_data)=c("Statename","Murder","Assault","UrbanPop", "Rape","population","popover18", "percentover18")
