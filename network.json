@@ -192,6 +192,16 @@
             ],
             "source": "Merge.R",
             "target": "StepD.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ScatterPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "StepD.R",
+            "target": "ScatterPlot.png"
         }
     ],
     "nodes": [
@@ -281,6 +291,6 @@
             "name": "ScatterPlot.png"
         }
     ],
-    "updated_at": "2018-10-10 20:30:05",
+    "updated_at": "2018-10-10 20:30:17",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
