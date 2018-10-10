@@ -192,6 +192,16 @@
             ],
             "source": "StepD.R",
             "target": "ScatterPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "HPop",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB4A.R",
+            "target": "HistogramPopulation.png"
         }
     ],
     "nodes": [
@@ -286,6 +296,6 @@
             "name": "HistogramPopulation.png"
         }
     ],
-    "updated_at": "2018-10-10 20:33:50",
+    "updated_at": "2018-10-10 20:34:21",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
