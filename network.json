@@ -113,7 +113,7 @@
             "ports": [
                 {
                     "input": "Murders",
-                    "output": "mergde_data",
+                    "output": "merged_data",
                     "type": "r_obj"
                 }
             ],
@@ -177,10 +177,12 @@
             "name": "StepB5B.png"
         },
         {
+            "assigned_to": "drsharma",
             "desc": "",
-            "name": "StepC7.R"
+            "name": "StepC7.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 20:01:19",
+    "updated_at": "2018-10-10 20:02:54",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
