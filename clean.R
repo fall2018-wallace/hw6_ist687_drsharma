@@ -8,3 +8,5 @@ myfunc <- function()
   colnames(census) <- c("StateName", "population", "popOver18", "percentOver18")
   return(census)
 }
+
+myfunc()
