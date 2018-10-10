@@ -317,8 +317,12 @@
         },
         {
             "name": "BoxplotPopulation.png"
+        },
+        {
+            "desc": "",
+            "name": "BoxplotMurder.R"
         }
     ],
-    "updated_at": "2018-10-10 20:41:45",
+    "updated_at": "2018-10-10 20:42:23",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
