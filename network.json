@@ -28,7 +28,7 @@
         {
             "ports": [],
             "source": "Merge.R",
-            "target": "StepB4.png"
+            "target": "StepB4.R"
         }
     ],
     "nodes": [
@@ -58,6 +58,6 @@
             "name": "StepB4.R"
         }
     ],
-    "updated_at": "2018-10-10 19:27:35",
+    "updated_at": "2018-10-10 19:27:54",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
