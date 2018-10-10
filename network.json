@@ -169,6 +169,16 @@
             ],
             "source": "StepB4A.R",
             "target": "BoxplotMurder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "HMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB4A.R",
+            "target": "Hmurderer.png"
         }
     ],
     "nodes": [
@@ -245,6 +255,6 @@
             "name": "Hmurderer.png"
         }
     ],
-    "updated_at": "2018-10-10 20:44:20",
+    "updated_at": "2018-10-10 20:44:31",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
