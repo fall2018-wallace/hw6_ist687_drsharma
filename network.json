@@ -88,6 +88,16 @@
             ],
             "source": "Merge.R",
             "target": "StepB5B.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BPop",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB5A.R",
+            "target": "StepB5A.png"
         }
     ],
     "nodes": [
@@ -142,6 +152,6 @@
             "name": "StepB5B.png"
         }
     ],
-    "updated_at": "2018-10-10 19:45:42",
+    "updated_at": "2018-10-10 19:45:58",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
