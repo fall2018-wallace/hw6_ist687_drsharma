@@ -129,7 +129,7 @@
                 }
             ],
             "source": "Merge.R",
-            "target": "StepC8910.R"
+            "target": "StepC891011.R"
         },
         {
             "ports": [
@@ -138,7 +138,7 @@
                     "type": "png"
                 }
             ],
-            "source": "StepC8910.R",
+            "source": "StepC891011.R",
             "target": "MurderPerState.png"
         },
         {
@@ -150,7 +150,7 @@
                 }
             ],
             "source": "StepC7.R",
-            "target": "StepC8910.R"
+            "target": "StepC891011.R"
         }
     ],
     "nodes": [
@@ -215,15 +215,15 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "drsharma",
-            "desc": "",
-            "name": "StepC8910.R",
-            "task_status": "in progress"
+            "name": "MurderPerState.png"
         },
         {
-            "name": "MurderPerState.png"
+            "assigned_to": "drsharma",
+            "desc": "",
+            "name": "StepC891011.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 20:16:24",
+    "updated_at": "2018-10-10 20:22:15",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
