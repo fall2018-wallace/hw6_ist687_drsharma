@@ -1,7 +1,6 @@
 
 #clean_data <- raw_data
 
-#USArrests
-
+USArrests
 arrests <- USArrests
 
