@@ -14,3 +14,4 @@ myfunc <- function()
     return(census)
 }
 
+myfunc()
