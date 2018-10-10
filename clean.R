@@ -13,6 +13,8 @@ myfunc <- function()
 
 myfunc()
 
+census
+
 #arrests=cbind(rownames(arrests),arrests)
 #colnames(arrests)= c("StateName")
 #arrests
