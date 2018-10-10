@@ -181,6 +181,17 @@
             ],
             "source": "StepC891011.R",
             "target": "SortedBMurderPerState.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "ScatterPlot",
+                    "output": "merged_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Merge.R",
+            "target": "StepD.R"
         }
     ],
     "nodes": [
@@ -267,6 +278,6 @@
             "name": "StepD.R"
         }
     ],
-    "updated_at": "2018-10-10 20:29:22",
+    "updated_at": "2018-10-10 20:29:45",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
