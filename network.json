@@ -132,16 +132,6 @@
         {
             "ports": [
                 {
-                    "output": "HMurder",
-                    "type": "png"
-                }
-            ],
-            "source": "StepB4A.R",
-            "target": "StepB4A.png"
-        },
-        {
-            "ports": [
-                {
                     "input": "merged_data",
                     "output": "merged_data",
                     "type": "r_obj"
@@ -207,9 +197,6 @@
             "task_status": "in progress"
         },
         {
-            "name": "StepB4A.png"
-        },
-        {
             "assigned_to": "drsharma",
             "desc": "",
             "name": "StepC7.R",
@@ -255,6 +242,6 @@
             "name": "Hmurderer.png"
         }
     ],
-    "updated_at": "2018-10-10 20:44:31",
+    "updated_at": "2018-10-10 20:45:00",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
