@@ -1,9 +1,5 @@
 
 #clean_data <- raw_data
-
-USArrests
-arrests <- USArrests
-
 myfunc <- function()
 {
     census <- census[-c(53),]
@@ -15,3 +11,6 @@ myfunc <- function()
 }
 
 myfunc()
+USArrests
+arrests <- USArrests
+
