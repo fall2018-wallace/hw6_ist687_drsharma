@@ -212,6 +212,16 @@
             ],
             "source": "Merge.R",
             "target": "StepB4A.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BPop",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB4A.R",
+            "target": "BoxplotPopulation.png"
         }
     ],
     "nodes": [
@@ -309,6 +319,6 @@
             "name": "BoxplotPopulation.png"
         }
     ],
-    "updated_at": "2018-10-10 20:41:35",
+    "updated_at": "2018-10-10 20:41:45",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
