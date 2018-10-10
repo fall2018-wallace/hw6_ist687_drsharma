@@ -52,8 +52,12 @@
         },
         {
             "name": "StepB4.png"
+        },
+        {
+            "desc": "",
+            "name": "StepB4.R"
         }
     ],
-    "updated_at": "2018-10-10 19:27:14",
+    "updated_at": "2018-10-10 19:27:35",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
