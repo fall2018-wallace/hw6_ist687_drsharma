@@ -12,6 +12,5 @@ myfunc <- function()
 }
 myfunc()
 
-USArrests
 arrests <- USArrests
 
