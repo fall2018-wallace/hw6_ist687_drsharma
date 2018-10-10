@@ -4,6 +4,7 @@
 USArrests
 arrests <- USArrests
 
+myfunc <- function()
 census <- census[-c(53),]
 census <- census[-c(1),]
 census <- census[-c(1,1:4)]
