@@ -77,6 +77,17 @@
             ],
             "source": "Merge.R",
             "target": "StepB5A.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "BoxMurder",
+                    "output": "merged_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Merge.R",
+            "target": "StepB5B.R"
         }
     ],
     "nodes": [
@@ -131,6 +142,6 @@
             "name": "StepB5B.png"
         }
     ],
-    "updated_at": "2018-10-10 19:45:19",
+    "updated_at": "2018-10-10 19:45:42",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
