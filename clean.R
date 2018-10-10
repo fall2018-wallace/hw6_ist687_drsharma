@@ -19,5 +19,5 @@ colnames(arrests)= c("Statename")
 arrests
 merged_data=merge(arrests,census)
 colnames(merged_data)=c("Statename","Murder","Assault","UrbanPop", "Rape","population","popover18", "percentover18")
-View(merged_data)
+#View(merged_data)
 
