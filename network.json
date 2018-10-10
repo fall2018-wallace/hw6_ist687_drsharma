@@ -34,7 +34,7 @@
                 }
             ],
             "source": "Merge.R",
-            "target": "StepB4.R"
+            "target": "StepB4B.R"
         },
         {
             "ports": [
@@ -43,7 +43,7 @@
                     "type": "png"
                 }
             ],
-            "source": "StepB4.R",
+            "source": "StepB4B.R",
             "target": "StepB4.png"
         }
     ],
@@ -70,16 +70,16 @@
             "name": "StepB4.png"
         },
         {
-            "assigned_to": "drsharma",
-            "desc": "",
-            "name": "StepB4.R",
-            "task_status": "in progress"
-        },
-        {
             "desc": "",
             "name": "StepB4A.R"
+        },
+        {
+            "assigned_to": "drsharma",
+            "desc": "",
+            "name": "StepB4B.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 19:35:27",
+    "updated_at": "2018-10-10 19:35:38",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
