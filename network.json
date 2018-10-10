@@ -37,7 +37,12 @@
             "target": "StepB4.R"
         },
         {
-            "ports": [],
+            "ports": [
+                {
+                    "output": "HMurder",
+                    "type": "png"
+                }
+            ],
             "source": "StepB4.R",
             "target": "StepB4.png"
         }
@@ -71,6 +76,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 19:30:50",
+    "updated_at": "2018-10-10 19:31:27",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
