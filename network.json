@@ -108,6 +108,17 @@
             ],
             "source": "StepB5A.R",
             "target": "StepB5A.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "Murders",
+                    "output": "mergde_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Merge.R",
+            "target": "StepC7.R"
         }
     ],
     "nodes": [
@@ -170,6 +181,6 @@
             "name": "StepC7.R"
         }
     ],
-    "updated_at": "2018-10-10 20:00:23",
+    "updated_at": "2018-10-10 20:01:19",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
