@@ -1,5 +1,6 @@
 
 #clean_data <- raw_data
+
 myfunc <- function()
 {
     census <- census[-c(53),]
@@ -9,8 +10,8 @@ myfunc <- function()
     colnames(census) <- c("StateName", "population", "popOver18", "percentOver18") 
     return(census)
 }
-
 myfunc()
+
 USArrests
 arrests <- USArrests
 
