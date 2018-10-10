@@ -66,6 +66,48 @@
             ],
             "source": "StepB4A.R",
             "target": "StepB4A.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "BoxPop",
+                    "output": "merged_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Merge.R",
+            "target": "StepB5A.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "BoxMurder",
+                    "output": "merged_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Merge.R",
+            "target": "StepB5B.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB5B.R",
+            "target": "StepB5B.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BPop",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB5A.R",
+            "target": "StepB5A.png"
         }
     ],
     "nodes": [
@@ -104,8 +146,24 @@
         },
         {
             "name": "StepB4A.png"
+        },
+        {
+            "assigned_to": "drsharma",
+            "desc": "",
+            "name": "StepB5A.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "StepB5B.R"
+        },
+        {
+            "name": "StepB5A.png"
+        },
+        {
+            "name": "StepB5B.png"
         }
     ],
-    "updated_at": "2018-10-10 19:39:21",
+    "updated_at": "2018-10-10 19:53:04",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
