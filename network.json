@@ -108,6 +108,17 @@
             ],
             "source": "Merge.R",
             "target": "StepB5B.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "Murders",
+                    "output": "merge_1",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Merge.R",
+            "target": "StepC7.R"
         }
     ],
     "nodes": [
@@ -172,6 +183,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 20:06:15",
+    "updated_at": "2018-10-10 20:06:30",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
