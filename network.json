@@ -119,6 +119,58 @@
             ],
             "source": "Merge.R",
             "target": "StepC7.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "BarChartMurder",
+                    "output": "merged_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Merge.R",
+            "target": "StepC891011.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "MurderPerState",
+                    "type": "png"
+                }
+            ],
+            "source": "StepC891011.R",
+            "target": "MurderPerState.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "no_of_murders",
+                    "output": "no_of_murders",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "StepC7.R",
+            "target": "StepC891011.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "MurderPerStateTextRotated",
+                    "type": "png"
+                }
+            ],
+            "source": "StepC891011.R",
+            "target": "MurderPerStateTextRotated.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BMurderPerState",
+                    "type": "png"
+                }
+            ],
+            "source": "StepC891011.R",
+            "target": "BMurderPerState.png"
         }
     ],
     "nodes": [
@@ -181,8 +233,23 @@
             "desc": "",
             "name": "StepC7.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "MurderPerState.png"
+        },
+        {
+            "assigned_to": "drsharma",
+            "desc": "",
+            "name": "StepC891011.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "MurderPerStateTextRotated.png"
+        },
+        {
+            "name": "BMurderPerState.png"
         }
     ],
-    "updated_at": "2018-10-10 20:07:29",
+    "updated_at": "2018-10-10 20:26:55",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
