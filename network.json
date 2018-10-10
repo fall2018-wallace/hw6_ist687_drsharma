@@ -200,9 +200,6 @@
             "name": "StepB4A.png"
         },
         {
-            "name": "StepB5B.png"
-        },
-        {
             "assigned_to": "drsharma",
             "desc": "",
             "name": "StepC7.R",
@@ -245,6 +242,6 @@
             "name": "BoxplotMurder.png"
         }
     ],
-    "updated_at": "2018-10-10 20:43:51",
+    "updated_at": "2018-10-10 20:43:55",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
