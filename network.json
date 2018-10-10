@@ -276,8 +276,11 @@
         {
             "desc": "",
             "name": "StepD.R"
+        },
+        {
+            "name": "ScatterPlot.png"
         }
     ],
-    "updated_at": "2018-10-10 20:29:45",
+    "updated_at": "2018-10-10 20:30:05",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
