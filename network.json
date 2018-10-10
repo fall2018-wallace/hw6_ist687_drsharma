@@ -139,7 +139,7 @@
                 }
             ],
             "source": "StepC891011.R",
-            "target": "MurderPerStateTextRotated.png"
+            "target": "MurderPerState.png"
         },
         {
             "ports": [
@@ -215,7 +215,7 @@
             "task_status": "in progress"
         },
         {
-            "name": "MurderPerStateTextRotated.png"
+            "name": "MurderPerState.png"
         },
         {
             "assigned_to": "drsharma",
@@ -224,6 +224,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 20:22:35",
+    "updated_at": "2018-10-10 20:24:25",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
