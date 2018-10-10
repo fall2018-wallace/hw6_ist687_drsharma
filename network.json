@@ -44,7 +44,7 @@
                 }
             ],
             "source": "StepB4B.R",
-            "target": "StepB4.png"
+            "target": "StepB4B.png"
         },
         {
             "ports": [
@@ -78,7 +78,7 @@
             "task_status": "in progress"
         },
         {
-            "name": "StepB4.png"
+            "name": "StepB4B.png"
         },
         {
             "desc": "",
@@ -94,6 +94,6 @@
             "name": "StepB4A.png"
         }
     ],
-    "updated_at": "2018-10-10 19:36:23",
+    "updated_at": "2018-10-10 19:36:45",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
