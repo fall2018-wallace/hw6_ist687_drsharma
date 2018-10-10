@@ -74,8 +74,12 @@
             "desc": "",
             "name": "StepB4.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "StepB4A.R"
         }
     ],
-    "updated_at": "2018-10-10 19:31:27",
+    "updated_at": "2018-10-10 19:35:27",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
