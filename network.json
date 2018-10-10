@@ -35,6 +35,11 @@
             ],
             "source": "Merge.R",
             "target": "StepB4.R"
+        },
+        {
+            "ports": [],
+            "source": "StepB4.R",
+            "target": "StepB4.png"
         }
     ],
     "nodes": [
@@ -60,10 +65,12 @@
             "name": "StepB4.png"
         },
         {
+            "assigned_to": "drsharma",
             "desc": "",
-            "name": "StepB4.R"
+            "name": "StepB4.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 19:28:38",
+    "updated_at": "2018-10-10 19:30:50",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
