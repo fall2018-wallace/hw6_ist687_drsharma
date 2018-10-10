@@ -1,3 +1,3 @@
 
 library(ggplot2)
-ggplot(BoxPop,aes(x=factor(0),y=population))+geom_boxplot()
+BPop <- ggplot(BoxPop,aes(x=factor(0),y=population))+geom_boxplot()
