@@ -1,2 +1,2 @@
 
-cleaned
+arrests <- USArrests
