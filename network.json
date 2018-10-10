@@ -49,17 +49,6 @@
         {
             "ports": [
                 {
-                    "input": "HistPop",
-                    "output": "merged_data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "Merge.R",
-            "target": "StepB4A.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "BoxPop",
                     "output": "merged_data",
                     "type": "r_obj"
@@ -212,6 +201,17 @@
             ],
             "source": "StepB4A.R",
             "target": "StepB4A.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data",
+                    "output": "merged_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Merge.R",
+            "target": "StepB4A.R"
         }
     ],
     "nodes": [
@@ -306,6 +306,6 @@
             "name": "HistogramPopulation.png"
         }
     ],
-    "updated_at": "2018-10-10 20:36:34",
+    "updated_at": "2018-10-10 20:39:20",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
