@@ -98,6 +98,16 @@
             ],
             "source": "StepB5A.R",
             "target": "StepB5A.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB5B.R",
+            "target": "StepB5B.png"
         }
     ],
     "nodes": [
@@ -152,6 +162,6 @@
             "name": "StepB5B.png"
         }
     ],
-    "updated_at": "2018-10-10 19:45:58",
+    "updated_at": "2018-10-10 19:46:10",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
