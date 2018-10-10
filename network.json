@@ -261,8 +261,12 @@
         },
         {
             "name": "SortedBMurderPerState.png"
+        },
+        {
+            "desc": "",
+            "name": "StepD.R"
         }
     ],
-    "updated_at": "2018-10-10 20:27:57",
+    "updated_at": "2018-10-10 20:29:22",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
