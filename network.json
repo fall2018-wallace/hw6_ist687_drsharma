@@ -140,6 +140,17 @@
             ],
             "source": "StepC8910.R",
             "target": "MurderPerState.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "no_of_murders",
+                    "output": "no_of_murders",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "StepC7.R",
+            "target": "StepC8910.R"
         }
     ],
     "nodes": [
@@ -213,6 +224,6 @@
             "name": "MurderPerState.png"
         }
     ],
-    "updated_at": "2018-10-10 20:14:36",
+    "updated_at": "2018-10-10 20:16:24",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
