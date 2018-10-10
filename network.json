@@ -191,9 +191,6 @@
             "task_status": "in progress"
         },
         {
-            "name": "StepB4B.png"
-        },
-        {
             "assigned_to": "drsharma",
             "desc": "",
             "name": "StepB4A.R",
@@ -251,6 +248,6 @@
             "name": "BoxplotMurder.png"
         }
     ],
-    "updated_at": "2018-10-10 20:43:40",
+    "updated_at": "2018-10-10 20:43:46",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
