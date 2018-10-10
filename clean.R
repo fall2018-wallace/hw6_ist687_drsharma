@@ -9,4 +9,4 @@ myfunc <- function()
   return(census)
 }
 
-
+cen <- myfunc()
