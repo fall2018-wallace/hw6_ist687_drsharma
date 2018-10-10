@@ -28,69 +28,6 @@
         {
             "ports": [
                 {
-                    "input": "HistMurder",
-                    "output": "merged_data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "Merge.R",
-            "target": "StepB4B.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "HMurder",
-                    "type": "png"
-                }
-            ],
-            "source": "StepB4B.R",
-            "target": "StepB4B.png"
-        },
-        {
-            "ports": [
-                {
-                    "input": "BoxPop",
-                    "output": "merged_data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "Merge.R",
-            "target": "StepB5A.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "BMurder",
-                    "type": "png"
-                }
-            ],
-            "source": "StepB5B.R",
-            "target": "StepB5B.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "BPop",
-                    "type": "png"
-                }
-            ],
-            "source": "StepB5A.R",
-            "target": "StepB5A.png"
-        },
-        {
-            "ports": [
-                {
-                    "input": "BoxMurder",
-                    "output": "merged_data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "Merge.R",
-            "target": "StepB5B.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "Murders",
                     "output": "merged_data",
                     "type": "r_obj"
@@ -195,16 +132,6 @@
         {
             "ports": [
                 {
-                    "output": "HMurder",
-                    "type": "png"
-                }
-            ],
-            "source": "StepB4A.R",
-            "target": "StepB4A.png"
-        },
-        {
-            "ports": [
-                {
                     "input": "merged_data",
                     "output": "merged_data",
                     "type": "r_obj"
@@ -212,6 +139,36 @@
             ],
             "source": "Merge.R",
             "target": "StepB4A.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BPop",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB4A.R",
+            "target": "BoxplotPopulation.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB4A.R",
+            "target": "BoxplotMurder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "HMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB4A.R",
+            "target": "Hmurderer.png"
         }
     ],
     "nodes": [
@@ -234,40 +191,10 @@
             "task_status": "in progress"
         },
         {
-            "name": "StepB4B.png"
-        },
-        {
             "assigned_to": "drsharma",
             "desc": "",
             "name": "StepB4A.R",
             "task_status": "in progress"
-        },
-        {
-            "assigned_to": "drsharma",
-            "desc": "",
-            "name": "StepB4B.R",
-            "task_status": "in progress"
-        },
-        {
-            "name": "StepB4A.png"
-        },
-        {
-            "assigned_to": "drsharma",
-            "desc": "",
-            "name": "StepB5A.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "drsharma",
-            "desc": "",
-            "name": "StepB5B.R",
-            "task_status": "in progress"
-        },
-        {
-            "name": "StepB5A.png"
-        },
-        {
-            "name": "StepB5B.png"
         },
         {
             "assigned_to": "drsharma",
@@ -304,8 +231,17 @@
         },
         {
             "name": "HistogramPopulation.png"
+        },
+        {
+            "name": "BoxplotPopulation.png"
+        },
+        {
+            "name": "BoxplotMurder.png"
+        },
+        {
+            "name": "Hmurderer.png"
         }
     ],
-    "updated_at": "2018-10-10 20:39:20",
+    "updated_at": "2018-10-10 20:45:00",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
