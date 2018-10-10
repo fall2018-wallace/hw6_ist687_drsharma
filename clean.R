@@ -11,7 +11,7 @@ myfunc <- function()
     return(census)
 }
 myfunc()
-
+USArrests
 arrests <- USArrests
 
 arrests=cbind(rownames(arrests),arrests)
