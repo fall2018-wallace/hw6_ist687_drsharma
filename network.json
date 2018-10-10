@@ -26,7 +26,13 @@
             "target": "Merge.R"
         },
         {
-            "ports": [],
+            "ports": [
+                {
+                    "input": "HistMurder",
+                    "output": "merged_data",
+                    "type": "r_obj"
+                }
+            ],
             "source": "Merge.R",
             "target": "StepB4.R"
         }
@@ -58,6 +64,6 @@
             "name": "StepB4.R"
         }
     ],
-    "updated_at": "2018-10-10 19:27:54",
+    "updated_at": "2018-10-10 19:28:38",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
