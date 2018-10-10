@@ -235,8 +235,11 @@
         },
         {
             "name": "MurderPerStateTextRotated.png"
+        },
+        {
+            "name": "BMurderPerState.png"
         }
     ],
-    "updated_at": "2018-10-10 20:25:16",
+    "updated_at": "2018-10-10 20:26:40",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
