@@ -60,16 +60,6 @@
         {
             "ports": [
                 {
-                    "output": "HPop",
-                    "type": "png"
-                }
-            ],
-            "source": "StepB4A.R",
-            "target": "StepB4A.png"
-        },
-        {
-            "ports": [
-                {
                     "input": "BoxPop",
                     "output": "merged_data",
                     "type": "r_obj"
@@ -202,6 +192,26 @@
             ],
             "source": "StepD.R",
             "target": "ScatterPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "HPop",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB4A.R",
+            "target": "HistogramPopulation.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "HMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB4A.R",
+            "target": "StepB4A.png"
         }
     ],
     "nodes": [
@@ -284,13 +294,18 @@
             "name": "SortedBMurderPerState.png"
         },
         {
+            "assigned_to": "drsharma",
             "desc": "",
-            "name": "StepD.R"
+            "name": "StepD.R",
+            "task_status": "in progress"
         },
         {
             "name": "ScatterPlot.png"
+        },
+        {
+            "name": "HistogramPopulation.png"
         }
     ],
-    "updated_at": "2018-10-10 20:30:17",
+    "updated_at": "2018-10-10 20:36:34",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
