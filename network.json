@@ -130,6 +130,16 @@
             ],
             "source": "Merge.R",
             "target": "StepC8910.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "MurderPerState",
+                    "type": "png"
+                }
+            ],
+            "source": "StepC8910.R",
+            "target": "MurderPerState.png"
         }
     ],
     "nodes": [
@@ -203,6 +213,6 @@
             "name": "MurderPerState.png"
         }
     ],
-    "updated_at": "2018-10-10 20:14:21",
+    "updated_at": "2018-10-10 20:14:36",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
