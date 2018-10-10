@@ -12,3 +12,4 @@ myfunc <- function()
     colnames(census, do.NULL = TRUE)
     colnames(census) <- c("StateName", "population", "popOver18", "percentOver18")   
 }
+
