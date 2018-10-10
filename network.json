@@ -28,27 +28,6 @@
         {
             "ports": [
                 {
-                    "output": "BMurder",
-                    "type": "png"
-                }
-            ],
-            "source": "StepB5B.R",
-            "target": "StepB5B.png"
-        },
-        {
-            "ports": [
-                {
-                    "input": "BoxMurder",
-                    "output": "merged_data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "Merge.R",
-            "target": "StepB5B.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "Murders",
                     "output": "merged_data",
                     "type": "r_obj"
@@ -224,12 +203,6 @@
             "name": "StepB4A.png"
         },
         {
-            "assigned_to": "drsharma",
-            "desc": "",
-            "name": "StepB5B.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "StepB5A.png"
         },
         {
@@ -278,6 +251,6 @@
             "name": "BoxplotMurder.png"
         }
     ],
-    "updated_at": "2018-10-10 20:43:35",
+    "updated_at": "2018-10-10 20:43:40",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
