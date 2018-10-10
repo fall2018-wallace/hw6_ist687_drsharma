@@ -18,7 +18,7 @@
             "ports": [
                 {
                     "input": "cleaned",
-                    "output": "clean",
+                    "output": "myfunc()",
                     "type": "r_obj"
                 }
             ],
@@ -46,6 +46,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 19:01:10",
+    "updated_at": "2018-10-10 19:04:08",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
