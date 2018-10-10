@@ -108,8 +108,12 @@
         {
             "desc": "",
             "name": "StepB5A.R"
+        },
+        {
+            "desc": "",
+            "name": "StepB5B.R"
         }
     ],
-    "updated_at": "2018-10-10 19:44:05",
+    "updated_at": "2018-10-10 19:44:14",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
