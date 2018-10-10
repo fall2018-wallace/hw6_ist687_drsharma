@@ -10,8 +10,12 @@
         },
         {
             "name": "data.csv"
+        },
+        {
+            "desc": "",
+            "name": "clean.R"
         }
     ],
-    "updated_at": "2018-10-10 03:31:45",
+    "updated_at": "2018-10-10 03:32:01",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
