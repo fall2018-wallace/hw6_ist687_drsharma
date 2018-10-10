@@ -154,16 +154,22 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "drsharma",
             "desc": "",
-            "name": "StepB5B.R"
+            "name": "StepB5B.R",
+            "task_status": "in progress"
         },
         {
             "name": "StepB5A.png"
         },
         {
             "name": "StepB5B.png"
+        },
+        {
+            "desc": "",
+            "name": "StepC7.R"
         }
     ],
-    "updated_at": "2018-10-10 19:53:04",
+    "updated_at": "2018-10-10 20:00:23",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
