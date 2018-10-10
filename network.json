@@ -171,6 +171,16 @@
             ],
             "source": "StepC891011.R",
             "target": "BMurderPerState.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SortedBMurderPerState",
+                    "type": "png"
+                }
+            ],
+            "source": "StepC891011.R",
+            "target": "SortedBMurderPerState.png"
         }
     ],
     "nodes": [
@@ -253,6 +263,6 @@
             "name": "SortedBMurderPerState.png"
         }
     ],
-    "updated_at": "2018-10-10 20:27:47",
+    "updated_at": "2018-10-10 20:27:57",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
