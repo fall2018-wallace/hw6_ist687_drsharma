@@ -119,6 +119,17 @@
             ],
             "source": "Merge.R",
             "target": "StepC7.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "BarChartMurder",
+                    "output": "merged_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Merge.R",
+            "target": "StepC8910.R"
         }
     ],
     "nodes": [
@@ -183,10 +194,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "drsharma",
             "desc": "",
-            "name": "StepC8910.R"
+            "name": "StepC8910.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 20:10:09",
+    "updated_at": "2018-10-10 20:12:30",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
