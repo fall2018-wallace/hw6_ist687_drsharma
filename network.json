@@ -44,8 +44,11 @@
             "desc": "",
             "name": "Merge.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "StepB4.png"
         }
     ],
-    "updated_at": "2018-10-10 19:23:44",
+    "updated_at": "2018-10-10 19:26:55",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
