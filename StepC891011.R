@@ -9,8 +9,10 @@ MurderPerState <- ggplot(BarChartMurder,aes(x=Statename,y=no_of_murders))+geom_c
 #labels can be easily understood
 MurderPerStateTextRotated <- ggplot(BarChartMurder,aes(x=Statename,y=no_of_murders))+geom_col()+theme(axis.text.x=element_text(angle=90, hjust=1))+ggtitle("Total murders")
 
-#Calculating the Murders per state with x-axis rotated and also by sorting the x-axis by murder rate so as to understand the murder rate according to state 
+#Calculating the Murders per state with x-axis rotated and also by sorting the x-axis by murder rate so as to 
+#understand the murder rate according to state 
 BMurderPerState <- ggplot(BarChartMurder,aes(x=reorder(Statename, no_of_murders),y=no_of_murders))+geom_col()+theme(axis.text.x=element_text(angle=90, hjust=1))+ggtitle("Total murders")
 
-
+#Calculating the Murders per state with x-axis rotated and also by sorting the x-axis by murder rate so as to 
+#understand the murder rate according to state and also shoing the percentage over 18 as the color of the bar
 SortedBMurderPerState <- ggplot(BarChartMurder,aes(x=reorder(Statename, no_of_murders),y=no_of_murders))+geom_col(aes(fill=percentover18))+theme(axis.text.x=element_text(angle=90, hjust=1))+ggtitle("Total murders")
