@@ -1,4 +1,6 @@
 
+#Reading the data and cleaning it using function
+
 census <- census[-c(53),]
 census <- census[-c(1),]
 census <- census[-c(1,1:4)]
