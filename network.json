@@ -240,8 +240,11 @@
             "desc": "",
             "name": "StepC7.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "satisficationSurvey.csv"
         }
     ],
-    "updated_at": "2018-10-11 05:20:31",
+    "updated_at": "2018-10-11 16:54:10",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
