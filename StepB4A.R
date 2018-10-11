@@ -11,4 +11,5 @@ HPop <- ggplot(merged_data,aes(x=population))+geom_histogram(bins=50,color="blac
 #Below line of code generates a boxplot representing the population
 BPop <- ggplot(merged_data,aes(x=factor(0),y=population))+geom_boxplot()
 
+#Below line of code generates a boxplot representing the Murder
 BMurder <- ggplot(merged_data,aes(x=factor(0),y=Murder))+geom_boxplot()
