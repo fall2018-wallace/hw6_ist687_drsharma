@@ -169,11 +169,6 @@
             ],
             "source": "StepB4A.R",
             "target": "HistogramMurder.png"
-        },
-        {
-            "ports": [],
-            "source": "StepB4A.R",
-            "target": "Comment.txt"
         }
     ],
     "nodes": [
@@ -245,11 +240,8 @@
             "desc": "",
             "name": "StepC7.R",
             "task_status": "in progress"
-        },
-        {
-            "name": "Comment.txt"
         }
     ],
-    "updated_at": "2018-10-11 05:20:07",
+    "updated_at": "2018-10-11 05:20:31",
     "url": "https://github.com/fall2018-wallace/hw6_ist687_drsharma"
 }
