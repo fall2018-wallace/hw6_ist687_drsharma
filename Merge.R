@@ -1,4 +1,5 @@
 
+#Copying USArrests data set into a local variable arrests
 arrests <- USArrests
 arrests=cbind(rownames(arrests),arrests)
 colnames(arrests)= c("Statename")
