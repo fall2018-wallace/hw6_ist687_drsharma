@@ -1,4 +1,5 @@
 
+#Reading the library ggplot2 which is used to work with histograms
 library(ggplot2)
 
 HMurder <- ggplot(merged_data,aes(x=Murder))+geom_histogram(bins=50,color="black", fill="blue")
