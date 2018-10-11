@@ -13,3 +13,6 @@ BPop <- ggplot(merged_data,aes(x=factor(0),y=population))+geom_boxplot()
 
 #Below line of code generates a boxplot representing the Murder
 BMurder <- ggplot(merged_data,aes(x=factor(0),y=Murder))+geom_boxplot()
+
+
+#Histogram was more helpful as it is much clear in understanding the distribution of the data whereas in boxplot it is not as much clear and more efforts are required to understand the output
